@@ -35,14 +35,14 @@
 #region LabTask3
 /*---> Ədədlərdən ibarət arrayda neçə rəqəm olduğunu ekrana çap edin (Məs: { 1,77,6,14} arrayında 2 rəqəm var ) <---*/
 
-//int[] nums = { 1, 77, 6, 14, 56, 8, 2 };
-//int count = 0;
+int[] nums = { 1, 77, 6, 14, 56, 8, 2 };
+int count = 0;
 
-//for (int i = 0; i < nums.Length; i++)
-//{
-//    if (nums[i] < 10 && nums[i] > 0) count++;
-//}
+for (int i = 0; i < nums.Length; i++)
+{
+    if (nums[i] < 10 && nums[i] > 0) count++;
+}
 
-//Console.WriteLine(count);
+Console.WriteLine(count);
 
 #endregion
